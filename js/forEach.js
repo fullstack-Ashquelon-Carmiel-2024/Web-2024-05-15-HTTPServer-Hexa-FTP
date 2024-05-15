@@ -59,3 +59,25 @@ foods.forEach((food, idx, ar) => {
 
 })
 
+/// Like in homework 2024-05-09
+///
+/**
+ * const drinks = ['water','soda','cola','fanta','tea','coffee','wine']
+const foods = ['sushi','pasta','pizza','humburger','soup','cheese','apple']
+ */
+
+const menu = drinks.map((el,ix) => {
+
+    return {
+        serialNum: ix+1,
+        drink: el,
+        food: foods[ix]
+    }
+
+})
+
+console.log(menu)
+
+// const nums1 = [55, 20, 32, 45, 88, 90];
+let result = nums1.reduce((sum,el) => sum + el)
+console.log(result)

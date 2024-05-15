@@ -22,3 +22,18 @@ k) Write new file into this dir
 let data1 = fs.readFileSync('./data/input.txt','utf-8');
 
 fs.writeFileSync('./data/new-text.txt',data1);
+
+fs.writeFileSync('./data/new-text.txt',data1);
+fs.writeFileSync('./data/new-text.txt',data1+'\n'+data1); //writes 2 lines
+let data2 = fs.readFileSync('./data/chocolate.txt','utf-8');
+fs.writeFileSync('./data/new-text.txt',data2);
+
+fs.writeFileSync('./data/text-again.txt',data1);
+fs.appendFileSync('./data/text-again.txt','\n');
+fs.appendFileSync('./data/text-again.txt',data1);
+
+let filesInThisDir = fs.readdirSync('.');
+console.log(filesInThisDir);
+let filesInDataDir = fs.readdirSync('./data');
+console.log(filesInDataDir);
+

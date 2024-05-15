@@ -10,6 +10,13 @@ const out1To5 = document.querySelector('.from1To5 .out');
 const btnColors = document.querySelector('.colors button');
 const outColors = document.querySelector('.colors .out');
 
+const btnArray = document.querySelector('.array button');
+const outArray = document.querySelector('.array .out');
+
+const ar = ['potato','shwarma','cruasan','falafel','pita'];
+//               0       1          2       3        4
+//   ar.length = 5
+
 // from 0 till some number
 const from0To = (tillNum) => {
 
@@ -43,5 +50,13 @@ btnColors.addEventListener('click',() => {
     outColors.innerText = colorStr;
     outColors.style.background = colorStr;
 
+
+})
+
+btnArray.addEventListener('click', () => {
+
+    // random food from ar
+
+    outArray.innerText = ar[Math.floor(Math.random() * ar.length)];
 
 })

@@ -54,7 +54,6 @@ CHALLENGEs are OPTIONAL
 5. Get test-example01 from test dir and prepare yourself 
    to the test.
 
-
 6. CHALLENGE. FORTUNE WHEEL - FIRST MISSION (of 2)
 
    a. Take the start html and css files.

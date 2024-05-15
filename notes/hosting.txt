@@ -70,7 +70,7 @@ to upload homework
 4. at the classroom respond to the mission with the link
 
 -----------------------------------------------
-FTP
+FTP - File Transfer Protocol
 -----------------------------------------------
 or FTP program like FileZilla
 or browser FTP extension 
